@@ -29,8 +29,9 @@ public class SampleController1 {
 	
 	@PostMapping(value="xmlTojson",produces = MediaType.APPLICATION_JSON_VALUE)
 	public Model xmlTojson(@RequestBody Model model) throws JsonMappingException, JsonProcessingException {
-		
-         return model;        		
+		String brg=null;
+         return model;  
+         
 		}
 	
 }
